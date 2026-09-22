@@ -15,14 +15,21 @@
 ## Act 2: Characters
 ### Starting Rank
 
-## Act 3: Cards
-> **Cards** defines the skills, actions, and tools available to a player 
+## Act 3: Pages
+> **Pages** defines the skills, actions, and tools available to a player throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
+
+### Combat Pages
+
+### Tools
+
+### Abilities
+
+### E.G.O. Pages
 
 ## Act 4: Equipment
-> **Equipment** defines the cards that constitute a player's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **weapons** or **armors**. Each piece of equipment comes with at least one **card** to use when in a player's deck when equipped.
+> **Equipment** grants the Pages that constitute a player's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a player's **Deck** when equipped.
 
 ### Weapons
-
 
 ### Armor
 
@@ -31,6 +38,12 @@
 ## Act 5: Core Systems
 
 ## Act 6: Combat
+Players roll speed to determine turn order. 
+On a player's turn, they 
+1. Resolve slotted pages
+2. Move/ Action / Slot a combat page
+    - A player cannot move if they are the target of a melee page, or have a slotted page
+    - If slotting a page to clash against an opposing page, resolve the clash
 
 ## Act 7: Economy
 
