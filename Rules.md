@@ -19,21 +19,38 @@
 > **Pages** defines the skills, actions, and tools available to a player throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
 
 ### Combat Pages
+> **Combat Pages** are pages derived from your current **Equipment** (equipped Weapons and Armor). Equipment bring at least one **Basic Page**, and can include more **Special Pages**.
 
 ### Tools
+> **Tools** are pages derived from items in your **Inventory**. Some tools are reusable, while others' pages are consumed upon use.
 
 ### Abilities
+> **Abilities** are pages derived from **Augments** or your currently equipped **Trinket**.
 
 ### E.G.O. Pages
+> **E.G.O. Pages** act as combat pages, accessible through character progression. These are unique pages to the character.
 
 ## Act 4: Equipment
 > **Equipment** grants the Pages that constitute a player's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a player's **Deck** when equipped.
 
 ### Weapons
+> **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Augment Effects**. 
 
 ### Armor
+> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time.
 
 ## Act 4: Deckbuilding
+> **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
+
+### Combat Decks
+> **Combat Decks**, by default, consist of 9 pages from character Equipment. Characters can create this deck from any number of copies of their **Basic Pages** from current Equipment.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page.
+
+#### Basic Pages
+    B
+
+### Modifying Pages
+
+### Auxillary Deck
 
 ## Act 5: Core Systems
 
