@@ -121,6 +121,7 @@
 ## Act 8: Combat
 
 ### Combat Start
+> On **Combat Start**, all characters roll a [d6]
 
 ### On Your Turn
 
