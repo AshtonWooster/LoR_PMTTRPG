@@ -28,7 +28,7 @@
 > **Light** is a resource depleted by using **Pages**, **Effects**, or **Passives** that consume Light and recovered through Light Recovery.
 
 #### Sanity
-> **Sanity** is a resource depleted by taking Sanity Damage and recovered through Sanity Recovery. When a character's Sanity is reduced to 0, they enter **Panic**.
+> **Sanity** is a resource depleted by taking Sanity Damage and recovered through Sanity Recovery. When a character's Sanity is reduced to their minimum, they enter **Panic**.
 
 ### Rank
 > **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums.
@@ -55,12 +55,15 @@
 > **Equipment** grants the Pages that constitute a player's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a player's **Deck** when equipped.
 
 ### Weapons
-> **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. 
+> **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
 
 ### Armor
-> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time.
+> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**
 
-## Act 4: Deckbuilding
+## Act 5: Augments
+> **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
+
+## Act 6: Deckbuilding
 > **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
 
 ### Combat Decks
@@ -78,16 +81,46 @@
 ### Auxillary Deck
 > Each character's **Auxillary Deck** is made up of **Tools**, **Abilities**, and **E.G.O. Pages**. Pages from the Auxillary Deck can be used at any time, unless otherwise stated on the Page or by the Game Master.
 
-## Act 5: Core Systems
+## Act 7: Core Systems
 
 ### Passives
+> **Passives** are modular, always active, effects that can be added to Weapons, Armors, and Augments.
 
 ### Effects
+> **Effects** are temporary ailments, buffs, or environmental effects that apply to a character.
+
+### Story Rolls
+> **Story Rolls** occur whenever a character faces a mental or physical obstacle, done at the Game Master's discretion. 
+
+#### Challenge Rolls
+> **Challenge Rolls** require a character to roll a specific stat, or choice of stat, and meet a minimum number required to pass. There may be other outcomes based on exceptionally high or low rolls, at the Game Master's discretion.
+
+#### Contested Rolls
+> **Contested Rolls** require a character to roll a specific stat, or choice of stat, against another enemy or character who does the same. The higher roll wins the **Contest**. Handling of ties, and exceptionally high or low rolls, are done at the Game Master's discretion.
+
+#### Assist
+> A character can **Assist** another character with an action requiring a Story Roll when they are within range of the same action, determined by the Game Master.
 
 ### Resting
+> **Resting** occurs when a character is able to meet the following conditions for a period of time: out of combat, in shelter, and positive sanity. While Resting, characters restore Health, Light, and Sanity.
 
+## Act 8: Combat
 
-## Act 6: Combat
+### Combat Start
+
+### On Your Turn
+
+#### Resolve Slotted Pages
+
+#### Combat Actions
+
+term
+: definition
+
+### 
+
+### Movement
+
 Players roll speed to determine turn order. 
 On a player's turn, they 
 1. Resolve slotted pages
@@ -95,9 +128,8 @@ On a player's turn, they
     - A player cannot move if they are the target of a melee page, or have a slotted page
     - If slotting a page to clash against an opposing page, resolve the clash
 
-## Act 7: Economy
+## Act 9: Economy
 
-## Credits
 ## Credits
 - **altidiya**: Member of the CR 2.0 Dev Team.
 - **arbitrary_crow_execution**: Member of the CR 2.0/3.0 Dev Team.
