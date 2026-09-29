@@ -3,17 +3,38 @@
 ## Index
 - **Act 1: Introduction**
 - **Act 2: Characters**
-- **Act 3: Effects & Skills**
-- **Act 4: Equipment and Utilities**
-- **Act 5: Core Systems**
-- **Act 6: Combat**
-- **Act 7: Economy**
+- **Act 3: Pages**
+- **Act 4: Equipment**
+- **Act 5: Augments**
+- **Act 6: Core Systems**
+- **Act 7: Combat**
+- **Act 8: Economy**
 - **Credits**
 
 ## Act 1: Introduction
 
 ## Act 2: Characters
-### Starting Rank
+
+### Resources
+> Charcters maintain various **Resources** as a means to interact with their environment. Actions and stimuli can affect a character's Resources. 
+
+#### Health
+> **Health** is a resource depleted by taking Damage and recovered through Health Recovery. When a character's Health is reduced to 0, they are **Knocked Out**. 
+
+#### Stagger Resist
+> **Stagger Resist** is a resource depleted by taking Stagger Damage and recovered through Stagger Recovery. When a character's Stagger is reduced to 0, they are **Staggered**.
+
+#### Light
+> **Light** is a resource depleted by using **Pages**, **Effects**, or **Passives** that consume Light and recovered through Light Recovery.
+
+#### Sanity
+> **Sanity** is a resource depleted by taking Sanity Damage and recovered through Sanity Recovery. When a character's Sanity is reduced to 0, they enter **Panic**.
+
+### Rank
+> **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums.
+
+### Stats
+> **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as equipment or **Effects**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master.
 
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a player throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
@@ -34,7 +55,7 @@
 > **Equipment** grants the Pages that constitute a player's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a player's **Deck** when equipped.
 
 ### Weapons
-> **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Augment Effects**. 
+> **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. 
 
 ### Armor
 > **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time.
@@ -46,13 +67,25 @@
 > **Combat Decks**, by default, consist of 9 pages from character Equipment. Characters can create this deck from any number of copies of their **Basic Pages** from current Equipment.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page.
 
 #### Basic Pages
-    B
+> Characters can copy and equip any number of a **Basic Page** into their Combat Deck. 
+
+#### Special Pages
+> Some Equipment may come with **Special Pages** by default. They can also be obtained by modifying a Basic Page, where a copy of the modification is added to the Equipment as a Special Page. 
 
 ### Modifying Pages
+> To modify a page, characters must meet conditions defined by the Game Master. Characters may choose to modify an existing Basic Page or Special Page. When modifying a Basic Page, modifications are made to a copy of the original Basic Page. This modified copy is then added as a Special Page to the equipment.
 
 ### Auxillary Deck
+> Each character's **Auxillary Deck** is made up of **Tools**, **Abilities**, and **E.G.O. Pages**. Pages from the Auxillary Deck can be used at any time, unless otherwise stated on the Page or by the Game Master.
 
 ## Act 5: Core Systems
+
+### Passives
+
+### Effects
+
+### Resting
+
 
 ## Act 6: Combat
 Players roll speed to determine turn order. 
