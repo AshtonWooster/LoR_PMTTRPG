@@ -6,9 +6,11 @@
 - **Act 3: Pages**
 - **Act 4: Equipment**
 - **Act 5: Augments**
-- **Act 6: Core Systems**
-- **Act 7: Combat**
-- **Act 8: Economy**
+- **Act 6: Creating a Character**
+- **Act 7: Deckbuilding**
+- **Act 8: Core Systems**
+- **Act 9: Combat**
+- **Act 10: Economy**
 - **Credits**
 
 ## Act 1: Introduction
@@ -69,7 +71,11 @@
 ## Act 5: Augments
 > **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
 
-## Act 6: Deckbuilding
+## Act 6: Creating a Character
+
+
+
+## Act 7: Deckbuilding
 > **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
 
 ### Combat Decks
@@ -87,7 +93,7 @@
 ### Auxillary Deck
 > Each character's **Auxillary Deck** is made up of **Tools**, **Abilities**, and **E.G.O. Pages**. Pages from the Auxillary Deck can be used at any time, unless stated otherwise on the Page or by the Game Master.
 
-## Act 7: Core Systems
+## Act 8: Core Systems
 
 ### Passives
 > **Passives** are modular, always active, effects that can be added to Weapons, Armors, and Augments.
@@ -124,7 +130,7 @@
 #### Discarding
 > When a character **Discards** a Page, move the page to the top of their **Discard Pile**, face up. 
 
-## Act 8: Combat
+## Act 9: Combat
 
 ### Combat Start
 > On **Combat Start**, all characters roll a `d6 + Justice` to determine **Speed**. Turn order then goes from highest to lowest Speed rolls. Ties go to the players first, then ties between players are decided between the players. Other ties are determined by the Game Master.
@@ -167,7 +173,12 @@ Grapple is an augment??
 Inventory
 Trinket Slot
 
-## Act 9: Economy
+Primary stats affect character resources
+Secondary stats affect world interactions (such as lockpicking)
+Instead of a class system, you choose abilities that meet the minimum secondary/primary stats
+Deepwoken.
+
+## Act 10: Economy
 
 ## Credits
 - **altidiya**: Member of the CR 2.0 Dev Team.
