@@ -1,5 +1,7 @@
 # Project Moon Tabletop Roleplaying Game - LoR Styled
 
+![Logo](GarethCircle.png)
+
 ## Index
 - [**Act 1: Introduction**](#act-1-introduction)
 - [**Act 2: Characters**](#act-2-characters)
@@ -73,6 +75,65 @@
 
 ### Page Type
 > The **Page Type** is displayed on the top right of a Page. The Page Type affects how and when the Page is used.
+
+#### Melee Pages
+> **Melee Pages** can be used against a target who is within the **Weapon Range**. When clashing against a **Ranged Page**, on **Offensive Dice** **Clash Win**, the Dice does not deal damage, instead it is **Recycled** and moved to the bottom of the Page.
+
+#### Ranged Pages
+> **Ranged Pages** can be used against a target within the **Weapon Range**. When clashing against a Melee Page outside of the target's Weapon Range on **Clash Lose** against a **Defensive Dice** the character takes no Stagger Damage. If no **Offensive Dice** remain on the character's Ranged Page and the character is outside the target's Weapon Range, all Offensive Dice on the target's page are **Negated**.
+
+#### Mass Attack Pages
+> **Mass Attack Pages** can be used against a number of targets within the **Weapon Range**. The character may choose which Speed Dice of the targets are selected for targetting.
+
+- **Summation**
+    > To resolve a **Summation** Clash, the sum of all non-**Counter Dice**'s Final Powers on the character's Page is compared to the sum of all non-Counter dice's Final Powers on the target's Page, regardless of whether they were clashing with the Mass Attack or not. If the sum of the target's Dice is lower, all Dice on the target's page excluding Counter Dice are **Negated**. If the sum of the target's dice is higher, the target is not affected by the Mass Attack. Then, the Mass Attack Page is resolved as One Sided Attack against all remaining targets.
+
+- **Individual**
+    > To resolve an **Individual** Clash, resolve each Dice on the Mass Attack Page top to bottom. Each target also resolves their Dice, excluding **Counter Dice** top to bottom. Each target compares their Dice's Final power against the character's Mass Attack Dice's Final Power. If the target's Final Power is lower, the target's Dice is **Negated** and the character's Mass Attack Page's Dice is applied against the target. Repeat for all targets.
+
+#### Instant Pages
+> When using an **Instant Page**, the Page is instantly resolved. Instant Pages cannot engage in Clashes.
+
+### Page Clashing
+> When a character slots a Page against a Speed Dice that has a Page Slotted, these two pages engage in a **Clash**. When two Pages Clash, resolve each Page from top to bottom. The **Dice** on each Page engage in **Dice Clashes** until the Page is resolved. When clashing against a Mass Attack Page with more than 1 target, the Clash is not resolved until the start of the Mass Attack Page's Owner's turn.
+
+### Page Negating
+> When a Page is **Negated**, it is removed from the current clash and immedietly sent to the character's **Discard** without resolving any of the remaining Dice.
+
+### Dice
+> **Dice** allow characters to deal damage and defend themselves. Every Dice is either an **Offensive**, **Defensive**, or **Counter** Dice. Every Dice has a assigned **Roll** and **Base Power**. When resolving a Dice, add the result of the Roll to the Base Power to find it's **Final Power**.
+
+#### Recycling
+> When a Dice is **Recycled**, it is reused. All **Effects** and **Passives** that affect the Dice persist. It is treated as the same current Dice; Effects and Passives that affect the *next Dice*, do not influence this Recycled Dice.
+
+#### Dice Negating
+> When a Dice is **Negated**, it is removed from the current Clash or One Sided Attack. It applies no damage or effects. 
+
+#### Dice Clashing
+> When two Dice **Clash**, their Final Powers are compared against each other. The higher Dice is counted as a **Clash Win**, and the lower Dice is counted as a **Clash Lose**. When the Final Powers are equal, it is counted as a **Draw** for both Dice. In the event of a Draw, both Dice are **Negated**.
+
+#### Offensive Dice
+> **Offensive Dice** have an assigned **Damage Type** that characters can have weaknesses or resistances to. Offensive Dice allow the character to damage their target by: `(Final Power)*(Target Resistance)`, where Target Resistance is the target's **Type Resistance** to the specified Damage Type.
+
+- **Slash Dice**
+    > **Slash Dice** deal and interact with **Effects** and **Passives** that influence **Slash Damage**.
+
+- **Pierce Dice**
+    > **Pierce Dice** deal and interact with **Effects** and **Passives** that influence **Pierce Damage**.
+
+- **Blunt Dice**
+    > **Blunt Dice** deal and interact with **Effects** and **Passives** that influence **Blunt Damage**.
+
+#### Defensive Dice
+> **Defensive Dice** allow characters to reduce or evade damage. Unused Defensive Dice are converted into **Counter Dice**.
+
+- **Block Dice**
+    > **Block Dice** allow a character to reduce incoming damage, negate it entirely, and deal Stagger Damage to the attacker. On **Clash Lose**, Incoming damage, before **Type Resistance** is reduced by the Block Dice's Final Power. On **Clash Win**, the attacker takes Stagger Damage equal to the difference in the Block Dice's and the opposing Dice's Final Powers, unless otherwise stated. On Clash Win against Defensive Dice, deal Stagger Damage equal to the Block Dice's Final Power instead.
+
+- **Evade Dice**
+    > **Evade Dice** allow a character to avoid incoming damage and recover Stagger Resist. Clashes between two Evade Dice are treated as a **Draw**, regardless of the results. On **Clash Win**, recover Stagger Resist equal to the Evade Dice's Final Power. On Clash Win against an Offensive Dice, Recycle the Evade Dice.
+
+#### Counter Dice
 
 ### Combat Pages
 > **Combat Pages** are pages derived from your current **Equipment** (equipped Weapons and Armor). Equipment bring at least one **Basic Page**, and can include more **Special Pages**.
@@ -166,7 +227,7 @@
 > Turns, in general, follow this order: **Resolve Slotted Pages**, then **Upkeep**, then **Combat Actions**, and finally **Endstep**. 
 
 #### Resolve Slotted Pages
-> To Resolve a Slotted Page that is not **Clashing**, resolve each Dice on the Page from top to bottom. Apply Damage and Effects to the chosen target as specified on the Page. To Resolve a Slotted Page that is Clashing, each dice **Clashes** against the opposing Page's Dice. After resolving a Dices' Clash, the winning dice applies Damage and Effects to the losing target as specified on the Page. After all Dice have been resolved on a Page, the Page is moved to the Discard.
+> To Resolve a Slotted Page that is not **Clashing**, resolve each Dice on the Page from top to bottom. Apply Damage and Effects to the chosen target as specified on the Page. To Resolve a Slotted Page that is Clashing, each dice Clashes against the opposing Page's Dice. After all Dice have been resolved on a Page, the Page is moved to the Discard.
 
 #### Upkeep
 > After resolving all Slotted Pages, the character's turn phase moves to **Upkeep**. During this phase, characters first draw a Page from their Combat Deck. Then, characters restore, by default, 1 Light. Then, resolve all Effects and Passives that activate at this time, in the order chosen by the character.
@@ -175,7 +236,7 @@
 > After resolving all Effects and Passives in the Upkeep phase, the character's turn phase moves to the **Combat Action** phase. Here, characters can choose any number of available **Combat Actions** to perform a turn.
 
 - **Movement:**
-    > Every turn a character gets a number of **Movement Points**, increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the Primary Target of an enemy attack. Characters can move tiles in any direction equal to the number of Movement Points expended for this Action. 
+    > Every turn a character gets a number of **Movement Points**, increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the target of an enemy attack, unless the attack is a Mass Attack. Characters can move tiles in any direction equal to the number of Movement Points expended for this Action. 
 
 - **Use a Combat Page**
     > To use a **Combat Page**, a character must pay Light equal to the Cost of the page. After a character pays the Cost of the Page, the Page is **Slotted** into the chosen Dice Slot against a chosen target until it is resolved.
@@ -189,9 +250,6 @@
 #### Endstep
 > When a character is ready to pass their turn, their turn phase moves into the **Endstep**. During the Endstep, all Effects and Passives that activate at this time are resolved in the order chosen by the character.
 
-### Clashing
-
-
 
 
 
@@ -200,10 +258,15 @@ Grapple is an augment??
 Inventory
 Trinket Slot
 
+Sanity gained/loss is determined by number of clashes
+Limbus.
+
 Primary stats affect character resources
 Secondary stats affect world interactions (such as lockpicking)
 Instead of a class system, you choose abilities that meet the minimum secondary/primary stats
 Deepwoken.
+
+Resistances in core systems, armors? 
 
 ## Act 10: Economy
 
