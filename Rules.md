@@ -1,17 +1,17 @@
 # Project Moon Tabletop Roleplaying Game - LoR Styled
 
 ## Index
-- **Act 1: Introduction**
-- **Act 2: Characters**
-- **Act 3: Pages**
-- **Act 4: Equipment**
-- **Act 5: Augments**
-- **Act 6: Creating a Character**
-- **Act 7: Deckbuilding**
-- **Act 8: Core Systems**
-- **Act 9: Combat**
-- **Act 10: Economy**
-- **Credits**
+- [**Act 1: Introduction**](#act-1-introduction)
+- [**Act 2: Characters**](#act-2-characters)
+- [**Act 3: Pages**](#act-3-pages)
+- [**Act 4: Equipment**](#act-4-equipment)
+- [**Act 5: Augments**](#act-5-augments)
+- [**Act 6: Creating a Character**](#act-6-creating-a-character)
+- [**Act 7: Deckbuilding**](#act-7-deckbuilding)
+- [**Act 8: Core Systems**](#act-8-core-systems)
+- [**Act 9: Combat**](#act-9-combat)
+- [**Act 10: Economy**](#act-10-economy)
+- [**Credits**](#credits)
 
 ## Act 1: Introduction
 
@@ -36,7 +36,34 @@
 > **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums.
 
 ### Stats
-> **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as equipment or **Effects**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master.
+> **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as **Equipment** or **Passives**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master.
+
+#### Primary Stats
+> A character's **Primary Stats** determine their base Resources and Speed. These are increased by investing **Primary Stat Points** on ranking up.
+
+- **Fortitude**
+    > A character's max Health is increased by their **Fortitude**.
+
+- **Prudence**
+    > A character's max Sanity is increased by their **Prudence**.
+
+- **Justice**
+    > A character's **Speed** Roll is increased by their **Justice**.
+
+- **Temperance**
+    > A character's max Stagger Resist is increased by their **Temperance**.
+
+#### Secondary Stats
+> A character's **Secondary Stats** affect their interactions with the environment. This includes **Story Rolls**, interactions with other characters, and capabilities. 
+
+- **Insight**
+    > Perception **Story Rolls** are increased by a character's Insight.
+
+- **Other**
+    > Other
+
+- **Placeholder**
+    > Placeholder
 
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a character throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
@@ -122,7 +149,7 @@
 ### Deck Interactions
 
 #### Hand
->
+> Current Combat Pages available to the character are defined as being in the character's **Hand**. Characters can only slot Pages from their Hand. When a character draws a Page, it is added to their Hand.
 
 #### Drawing
 > When a character **Draws** a Page, take one Page from the top of the character's Combat Deck and add it to the character's Hand. If a character's Combat Deck is empty, shuffle their **Discard Pile** face down to replenish their Combat Deck. If the Discard Pile is also empty, the chracter instead does not draw a Page.
