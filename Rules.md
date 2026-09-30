@@ -73,7 +73,7 @@
 > **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
 
 ### Combat Decks
-> **Combat Decks**, by default, consist of 9 pages from character Equipment. Characters can create this deck from any number of copies of their **Basic Pages** from current Equipment.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page.
+> **Combat Decks**, by default, consist of 12 pages from character Equipment. Characters can create this deck from any number of copies of their **Basic Pages** from current Equipment.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page. While in **Combat**, the character's Combat Deck is shuffled, face down.
 
 #### Basic Pages
 > Characters can copy and equip any number of a **Basic Page** into their Combat Deck. 
@@ -98,9 +98,8 @@
 ### Story Rolls
 > **Story Rolls** occur whenever a character faces a mental or physical obstacle, done at the Game Master's discretion.
 
-#### Advantage
-
-#### Disadvantage
+#### Advantage & Disadvantage
+> When a character has **Advantage** they replace their next dice roll with dice rolls equal to their count of Advantage plus 1 and choose the highest of the rolls to keep. When a character has **Disadvantage** they replace their next dice roll with dice rolls equal to their count of Disadvantage plus 1 and choose the lowest of the rolls to keep. Lose all Advantage and Disadvantage after resolving the Dice. If a character would gain Advantage while having Disadvantage, the character loses count of Disadvantage equal to the Advantage they would gain.If a character would gain Disadvantage while having Advantage, the character loses count of Advantage equal to the Disadvantage they would gain 
 
 #### Challenge Rolls
 > **Challenge Rolls** require a character to roll a specific stat, or choice of stat, and meet a minimum number required to pass. There may be other outcomes based on exceptionally high or low rolls, at the Game Master's discretion.
@@ -116,22 +115,34 @@
 
 ### Deck Interactions
 
-#### Discard
+#### Hand
+>
+
+#### Drawing
+> When a character **Draws** a Page, take one Page from the top of the character's Combat Deck and add it to the character's Hand. If a character's Combat Deck is empty, shuffle their **Discard Pile** face down to replenish their Combat Deck. If the Discard Pile is also empty, the chracter instead does not draw a Page.
+
+#### Discarding
+> When a character **Discards** a Page, move the page to the top of their **Discard Pile**, face up. 
 
 ## Act 8: Combat
 
 ### Combat Start
-> On **Combat Start**, all characters roll a `d6`
+> On **Combat Start**, all characters roll a `d6 + Justice` to determine **Speed**. Turn order then goes from highest to lowest Speed rolls. Ties go to the players first, then ties between players are decided between the players. Other ties are determined by the Game Master.
 
 ### On Your Turn
+> Turns, in general, follow this order: **Resolve Slotted Pages**, then **Upkeep**, then **Combat Actions**, and finally **Endstep**. 
 
 #### Resolve Slotted Pages
 > To Resolve a Slotted Page that is not **Clashing**, resolve each Dice on the Page from top to bottom. Apply Damage and Effects to the chosen target as specified on the Page. To Resolve a Slotted Page that is Clashing, each dice **Clashes** against the opposing Page's Dice. After resolving a Dices' Clash, the winning dice applies Damage and Effects to the losing target as specified on the Page. After all Dice have been resolved on a Page, the Page is moved to the Discard.
 
+#### Upkeep
+> After resolving all Slotted Pages, the character's turn phase moves to **Upkeep**. During this phase, characters first draw a Page from their Combat Deck. Then, characters restore, by default, 1 Light. Then, resolve all Effects and Passives that activate at this time, in the order chosen by the character.
+
 #### Combat Actions
+> After resolving all Effects and Passives in the Upkeep phase, the character's turn phase moves to the **Combat Action** phase. Here, characters can choose any number of available **Combat Actions** to perform a turn.
 
 - **Movement:**
-    > Every turn a character gets a number of **Movement Points**, increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the Primary Target of an enemy attack.
+    > Every turn a character gets a number of **Movement Points**, increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the Primary Target of an enemy attack. Characters can move tiles in any direction equal to the number of Movement Points expended for this Action. 
 
 - **Use a Combat Page**
     > To use a **Combat Page**, a character must pay Light equal to the Cost of the page. After a character pays the Cost of the Page, the Page is **Slotted** into the chosen Dice Slot against a chosen target until it is resolved.
@@ -139,21 +150,22 @@
 - **Use an Auxillary Page**
     > Unlike Combat Pages, characters have full access to the Auxillary Deck from the start of combat, unless stated otherwise by the Game Master. After using an **Auxillary Page**, the page is removed from the Auxillary Deck until the end of combat, unless stated otherwise on the Page.
 
-- **Grapple**
-    > When a character chooses to **Grapple** a Staggered target, the target is placed under the effects of Grapple and the character is unable to use Combat Pages. When a character chooses to Grapple a target who is not Staggered, they engage in a Fortitude Contested Roll with Disadvantage. 
-
 - **Dash**
     > To increase the amount of distance travelled in a turn, characters can **Dash** to convert Light into Movement Point. The amount of Movement Points gained by Dashing can be increased by the character's Justice and passives.
 
+#### Endstep
+> When a character is ready to pass their turn, their turn phase moves into the **Endstep**. During the Endstep, all Effects and Passives that activate at this time are resolved in the order chosen by the character.
+
 ### Clashing
 
-Players roll speed to determine turn order. 
-On a player's turn, they 
-1. Resolve slotted pages
-2. Move/ Action / Slot a combat page
-    - A player cannot move if they are the target of a melee page, or have a slotted page
-    - If slotting a page to clash against an opposing page, resolve the clash
-- Cover
+
+
+
+
+Cover
+Grapple is an augment??
+Inventory
+Trinket Slot
 
 ## Act 9: Economy
 
