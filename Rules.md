@@ -110,7 +110,7 @@
 > When a Dice is **Negated**, it is removed from the current Clash or One Sided Attack. It applies no damage or effects. 
 
 #### Dice Clashing
-> When two Dice **Clash**, their Final Powers are compared against each other. The higher Dice is counted as a **Clash Win**, and the lower Dice is counted as a **Clash Lose**. When the Final Powers are equal, it is counted as a **Draw** for both Dice. In the event of a Draw, both Dice are **Negated**.
+> When two Dice **Clash**, their Final Powers are compared against each other. The higher Dice is counted as a **Clash Win**, and the lower Dice is counted as a **Clash Lose**. When the Final Powers are equal, it is counted as a **Draw** for both Dice. In the event of a Draw, both Dice are **Negated**. On a Dice's Clash Lose, a character loses 1 Sanity. On a Dice's Clash Win, a character heals 1 Sanity.
 
 #### Offensive Dice
 > **Offensive Dice** have an assigned **Damage Type** that characters can have weaknesses or resistances to. Offensive Dice allow the character to damage their target by: `(Final Power)*(Target Resistance)`, where Target Resistance is the target's **Type Resistance** to the specified Damage Type.
@@ -154,7 +154,10 @@
 > **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
 
 ### Armor
-> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**
+> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**. Armors additionally set the base **Resistances** for a character, which determine how much damage a character takes to each of the three Damage Types.
+
+#### Resistances
+> An Armor has 3 **Resistance** values that affect the Final Damage a character would take when hit by an attack of a specified Damage Type. Higher tier armors have lower Resistances, meaning the character takes less damage.
 
 ## Act 5: Augments
 > **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
@@ -182,6 +185,18 @@
 > Each character's **Auxillary Deck** is made up of **Tools**, **Abilities**, and **E.G.O. Pages**. Pages from the Auxillary Deck can be used at any time, unless stated otherwise on the Page or by the Game Master.
 
 ## Act 8: Core Systems
+
+### Inventory
+> A character's **Inventory** consists of a starting maximum of 9 **Slots**. Each Slot can hold up to one Tool or Item. Tools and Items in your inventory are part of your Auxillary Deck. Every character also has, by default, one **Trinket Slot**.
+
+#### Item
+> An **Item** is a Material, Ammo, or story piece created by the Game Master. These, by default, take up one Slot can be **Stacking** or **Non-stacking** Items. Stacking Items can hold multiple of the same Item in the same Slot, up to a specified maximum count. Non-stacking Items, on the otherhand must each have their own unique Slot to hold multiple in your Inventory.
+
+#### Trinket
+> A **Trinket** is a unique type of Item, these are only active when equipped into the character's **Trinket Slot**. Trinkets provide special benefits when active. 
+
+#### Trinket Slot
+> By default, characters have one **Trinket Slot**, which can hold and activate one Trinket. 
 
 ### Passives
 > **Passives** are modular, always active, effects that can be added to Weapons, Armors, and Augments.
@@ -250,23 +265,22 @@
 #### Endstep
 > When a character is ready to pass their turn, their turn phase moves into the **Endstep**. During the Endstep, all Effects and Passives that activate at this time are resolved in the order chosen by the character.
 
+### Cover
+> When a character is in **Cover**, the strength of ranged pages are reduced depending on the amount of Cover, determined by the Game Master. When a character attempts to move into Cover, while a Ranged Page is slotted against the character, the character who has slotted the Page has the choice to instantly resolve the Page. 
 
+#### Partial Cover
+> For a character to be in **Partial Cover**, they must have at least 50% of their body covered by an appropriate external source, such as a residential wall or pillar. While a character is in the effects of Partial Cover, Ranged Pages get `Final Power - 2`. Final Power cannot drop below 1 by the effects of Partial Cover.
 
-
-Cover
-Grapple is an augment??
-Inventory
-Trinket Slot
-
-Sanity gained/loss is determined by number of clashes
-Limbus.
+#### Full Cover
+> For a character to be in **Full Cover**, they must be completely covered by an appropriate external source. While a character is in the effects of Full Cover, Ranged Pages cannot be targetted against the character.
 
 Primary stats affect character resources
 Secondary stats affect world interactions (such as lockpicking)
 Instead of a class system, you choose abilities that meet the minimum secondary/primary stats
 Deepwoken.
 
-Resistances in core systems, armors? 
+Passives.
+Augments.
 
 ## Act 10: Economy
 
