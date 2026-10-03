@@ -68,7 +68,7 @@
     > Placeholder
 
 ### Proficiencies
-> **Proficiencies** define unique abilities that are obtainable every time the character Ranks Up.  
+> **Proficiencies** define unique abilities that are obtainable every time the character Ranks Up. When a character Ranks Up, they choose 2 Proficiencies to permanently gain.
 
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a character throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
@@ -272,7 +272,7 @@
 > When a character is in **Cover**, the strength of ranged pages are reduced depending on the amount of Cover, determined by the Game Master. When a character attempts to move into Cover, while a Ranged Page is slotted against the character, the character who has slotted the Page has the choice to instantly resolve the Page. 
 
 #### Partial Cover
-> For a character to be in **Partial Cover**, they must have at least 50% of their body covered by an appropriate external source, such as a residential wall or pillar. While a character is in the effects of Partial Cover, Ranged Pages get `Final Power - 2`. Final Power cannot drop below 1 by the effects of Partial Cover.
+> For a character to be in **Partial Cover**, they must have at least 50% of their body covered by an appropriate external source, such as a residential wall or pillar. While a character is in the effects of Partial Cover, Ranged Pages get `Final Power - 2` against the character. Final Power cannot drop below 1 by the effects of Partial Cover.
 
 #### Full Cover
 > For a character to be in **Full Cover**, they must be completely covered by an appropriate external source. While a character is in the effects of Full Cover, Ranged Pages cannot be targetted against the character.
