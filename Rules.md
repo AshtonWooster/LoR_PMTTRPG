@@ -38,7 +38,7 @@
 > **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums.
 
 ### Stats
-> **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as **Equipment** or **Passives**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master.
+> **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as **Equipment** or **Passives**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master. When choosing **Proficiencies**, a certain minimum of **Primary** and/or **Secondary Stats**, specific to the desired Proficiency, must be met.
 
 #### Primary Stats
 > A character's **Primary Stats** determine their base Resources and Speed. These are increased by investing **Primary Stat Points** on ranking up.
@@ -66,6 +66,9 @@
 
 - **Placeholder**
     > Placeholder
+
+### Proficiencies
+> **Proficiencies** define unique abilities that are obtainable every time the character Ranks Up.  
 
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a character throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
