@@ -7,12 +7,11 @@
 - [**Act 2: Characters**](#act-2-characters)
 - [**Act 3: Pages**](#act-3-pages)
 - [**Act 4: Equipment**](#act-4-equipment)
-- [**Act 5: Augments**](#act-5-augments)
-- [**Act 6: Creating a Character**](#act-6-creating-a-character)
-- [**Act 7: Deckbuilding**](#act-7-deckbuilding)
-- [**Act 8: Core Systems**](#act-8-core-systems)
-- [**Act 9: Combat**](#act-9-combat)
-- [**Act 10: Economy**](#act-10-economy)
+- [**Act 5: Creating a Character**](#act-5-creating-a-character)
+- [**Act 6: Deckbuilding**](#act-6-deckbuilding)
+- [**Act 7: Core Systems**](#act-7-core-systems)
+- [**Act 8: Combat**](#act-8-combat)
+- [**Act 9: Economy**](#act-9-economy)
 - [**Credits**](#credits)
 
 ## Act 1: Introduction
@@ -68,7 +67,10 @@
     > Placeholder
 
 ### Proficiencies
-> **Proficiencies** define unique abilities that are obtainable every time the character Ranks Up. When a character Ranks Up, they choose 2 Proficiencies to permanently gain.
+> **Proficiencies** define unique abilities that are obtainable every time the character Ranks Up. When a character Ranks Up, they choose 2 Proficiencies to permanently gain. To choose a Proficiency, the character must meet the minimum Stat requirements.
+
+### Augments
+> **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
 
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a character throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
@@ -137,6 +139,7 @@
     > **Evade Dice** allow a character to avoid incoming damage and recover Stagger Resist. Clashes between two Evade Dice are treated as a **Draw**, regardless of the results. On **Clash Win**, recover Stagger Resist equal to the Evade Dice's Final Power. On Clash Win against an Offensive Dice, Recycle the Evade Dice.
 
 #### Counter Dice
+> **Counter Dice** can be Offensive or Defensive. Counter Dice do not prompt any action, and are instead stored on the character until the end of their next **Upkeep**. These Counter Dice are automatically used to respond to any One-sided attack they would receive, used in the order they were generated. They are not used when the character and attacker both slotted a Page in a Clash. On **Clash Win**, Counter Dice are Recycled. Then, at the end of the attacker's Combat Page Resolution, they are lost.
 
 ### Combat Pages
 > **Combat Pages** are pages derived from your current **Equipment** (equipped Weapons and Armor). Equipment bring at least one **Basic Page**, and can include more **Special Pages**.
@@ -162,14 +165,53 @@
 #### Resistances
 > An Armor has 3 **Resistance** values that affect the Final Damage a character would take when hit by an attack of a specified Damage Type. Higher tier armors have lower Resistances, meaning the character takes less damage.
 
-## Act 5: Augments
-> **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
+### Creating Pages
 
-## Act 6: Creating a Character
+## Act 5: Creating a Character
+> When creating a character, a player must consider the build, design, and story of their character. The customization may be limited or expanded by the Game Master, but in general new characters are composed of these pieces: Starting Rank, Primary Stats, Secondary Stats, Proficiencies, Augments, and Equipment.
 
+### Step 1: Determine Starting Rank
+> The Rank a character is determines everything that is available for customization, from Stats, Passives, Equipment and more. So, it is critical to ensure that you and your Game Master have agreed upon a starting Rank for each character. For most campaigns, it is encouraged to start at Rank 9. 
+Stats table
 
+### Step 2: Assigning Stats
+> When you have decided on a starting Rank, you now have a set amount of Primary and Secondary Stats to allocate. These also change what Proficiencies are available to you, so work towards creating a "build" from these Stat assignments. 
 
-## Act 7: Deckbuilding
+### Step 3: Choosing Proficiencies
+> After assigning Stats, you can choose a number of Proficiencies equal to `Rank*2`. These Proficiencies allow you to fit the history and background of your character. For example, a character who had a background as a workshop fixer might choose Proficiencies in modifiying or creating Weapons.
+
+### Step 4: Creating an Augment
+> Your Augment allows you to create a unique style of gameplay for your character. You can assign Passives based on the character's starting Rank up to the maximum Passive Costs defined in the table below. There are examples available, but you are encouraged to work with your Game Master to create unique Augment Passives for your build.
+Max Costs table
+
+### Step 5: Crafting Weapons and Armor 
+> When creating Weapons or Armor, you are encouraged to work with your Game Master to ensure that it is balanced for the expectations of the campaign. You are encouraged to start with weaker versions of your ideal starting Equipment to leave room for upgrades and customization in the future. First, assign Passives to the maximum Passive Costs defined in the table below. Then, you will work with your Game Master to create one Basic Page and one Special Page for each piece of Equipment. 
+
+### Step 6: Finishing Touches
+> After creating the backbone of your character, it is time to build its identity. This includes their history, appearance, goals, and personality. 
+
+- **Name, Age, and Height**
+> Although these might have limited impact on the mechanics of your gameplay, they have a large role in how your character interacts with the world. Be creative, but realistic to the setting envisioned by the Game Master.
+
+- **Occupation**
+> a character's previous or current occupation could have a large impact on what has shaped the decisions of Passives, Proficiencies and Augment. Consider a former Stigma Workshop fixer who has Burn Resistance. This also helps form the start of the party, for example: is your party working for the same office, syndicate, or even wing?
+
+- **Birthplace and Residence**
+> In most cases of the City, a character's birthplace and residence are the same. But, this should not limit your character design! Maybe they were born in I-Corp, but evacuated after the surviving the Pianist incident.
+
+- **Appearance**
+> A visual description of your character is a great way to introduce your character to the rest of your party and Game Master. This will also impact how other citizens of the City see and interact with them. Maybe they have scars from their past, be creative! Picrew is a great resource to use for creating a design. 
+
+- **Personality**
+> Having a defined personality that is available for your Game Master is very helpful for them to plan ahead, and your party for interactions with your character. How does your character respond to stress, to excitement, or fear?
+
+- **Relationships**
+> Does your character have a notable history with other characters that your Game Master could use to draw in your character? The more you give, the more the Game Master can use your character, but make sure to leave it open. If you are too restrictive with the history of other characters, the Game Master might find it difficult to weave into the existing setting. When in doubt, work with them to ensure a smooth gameplay experience for everyone.
+
+- **Starting Ahn**
+> Given the background and history of your character, this amount may change from what your Game Master has originally set. Make sure to work with them to decide this as well. 
+
+## Act 6: Deckbuilding
 > **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
 
 ### Combat Decks
@@ -187,7 +229,7 @@
 ### Auxillary Deck
 > Each character's **Auxillary Deck** is made up of **Tools**, **Abilities**, and **E.G.O. Pages**. Pages from the Auxillary Deck can be used at any time, unless stated otherwise on the Page or by the Game Master.
 
-## Act 8: Core Systems
+## Act 7: Core Systems
 
 ### Inventory
 > A character's **Inventory** consists of a starting maximum of 9 **Slots**. Each Slot can hold up to one Tool or Item. Tools and Items in your inventory are part of your Auxillary Deck. Every character also has, by default, one **Trinket Slot**.
@@ -202,7 +244,7 @@
 > By default, characters have one **Trinket Slot**, which can hold and activate one Trinket. 
 
 ### Passives
-> **Passives** are modular, always active, effects that can be added to Weapons, Armors, and Augments.
+> **Passives** are modular, always active, effects that can be applied to Weapons, Armors, and Augments. Every Passive has a predetermined **Passive Cost**. The Rank of an Equipment or Augment determines the Maximum Passive Cost that can be applied. Some Passives have a **Negative Passive** variant, which have negative effects to the character. These allow a character to slot more of other Passives to stay below the Maximum Passive Cost. Characters can only slot Negative Passive Cost equal to the Maximum Passive Cost of the Equipment of Augment.   
 
 ### Effects
 > **Effects** are temporary ailments, buffs, or environmental effects that apply to a character.
@@ -236,7 +278,7 @@
 #### Discarding
 > When a character **Discards** a Page, move the page to the top of their **Discard Pile**, face up. 
 
-## Act 9: Combat
+## Act 8: Combat
 
 ### Combat Start
 > On **Combat Start**, all characters roll a `d6 + Justice` to determine **Speed**. Turn order then goes from highest to lowest Speed rolls. Ties go to the players first, then ties between players are decided between the players. Other ties are determined by the Game Master.
@@ -277,15 +319,12 @@
 #### Full Cover
 > For a character to be in **Full Cover**, they must be completely covered by an appropriate external source. While a character is in the effects of Full Cover, Ranged Pages cannot be targetted against the character.
 
-Primary stats affect character resources
-Secondary stats affect world interactions (such as lockpicking)
-Instead of a class system, you choose abilities that meet the minimum secondary/primary stats
-Deepwoken.
+### Panic
+Panics dont stop player from making decisions or control them:
+- Panic that min rolls everything
+- Panic that no light recover
 
-Passives.
-Augments.
-
-## Act 10: Economy
+## Act 9: Economy
 
 ## Credits
 - **altidiya**: Member of the CR 2.0 Dev Team.
