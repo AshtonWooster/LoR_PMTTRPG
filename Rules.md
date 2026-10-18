@@ -194,7 +194,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 
 - **Heavy**
     - Two Handed
-    - Gain `(10 - Weapon Rank)/3 Rounded Up` extra **Page Point** per Light Cost 
+    - Gain `(10 - Weapon Rank) * (Light-1)/2 Rounded Up` extra **Page Point** per Light Cost 
 
 **Ranged Weapon Properties**
 
@@ -203,12 +203,12 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 - **Low Caliber**
     - 6 Range
     - One Handed
-    - Cheaper dice on apge
+    - Adding a new Dice to a Page costs `2` **Page Points** Instead of `3`
 
 - **High Caliber**
     - 10 Range
     - Two Handed
-    - Higher light scaling per apge
+    - Gain `(10 - Weapon Rank) * (Light-1)/2 Rounded Up` extra **Page Point** per Light Cost 
 
 **Weapon Type**
 
