@@ -177,6 +177,44 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 ### Weapons
 > **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
 
+#### Creating a Weapon
+> When creating a Weapon, choose the **Weapon Type** (Melee or Ranged), **Weapon Property** and **Hand Property**. These affect how the weapon can be used and give benefits. Melee Weapons cannot run Ranged Pages.
+
+**Melee Weapon Properties**
+
+- **Small**
+    - 1 Range 
+
+- **Medium**
+    - 1 Range
+
+- **Long**
+    - 2 Range
+
+- **Defensive**
+    - 1 Range
+    - Can Clash with any Attack that is targetting an allied character within 2 tiles, unless otherwise stated.  
+
+**Ranged Weapon Properties**
+
+- **Low Caliber**
+    - 6 Range
+
+- **High Caliber**
+    - 10 Range
+
+**Hand Property**
+
+- **One Handed**
+    > A
+
+- **Two Handed**
+    > A
+
+- **Special**
+    > A
+
+
 ### Armor
 > **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**. Armors additionally set the base **Resistances** for a character, which determine how much damage a character takes to each of the three Damage Types.
 
