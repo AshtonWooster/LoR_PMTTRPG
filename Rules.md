@@ -24,17 +24,25 @@
 #### Health
 > **Health** is a resource depleted by taking Damage and recovered through Health Recovery. When a character's Health is reduced to 0, they are **Knocked Out**. 
 
+Health Formula: `64 + (10-Rank)*16 + Fortitude*10`
+
 #### Stagger Resist
 > **Stagger Resist** is a resource depleted by taking Stagger Damage and recovered through Stagger Recovery. When a character's Stagger is reduced to 0, they are **Staggered**.
+
+Stagger Resist Formula: `20 + (10-Rank)*2 + Temperance*4`
 
 #### Light
 > **Light** is a resource depleted by using **Pages**, **Effects**, or **Passives** that consume Light and recovered through Light Recovery.
 
+Light Formula: `3 + ((10-Rank)/2 Rounded Down)`
+
 #### Sanity
-> **Sanity** is a resource depleted by taking Sanity Damage and recovered through Sanity Recovery. When a character's Sanity is reduced to their minimum, they enter **Panic**.
+> **Sanity** is a resource depleted by taking Sanity Damage and recovered through Sanity Recovery. A character's minimum Sanity is the negative of their maximum value. So, a character with a max Sanity of 15 will panic at -15. When a character's Sanity is reduced to their minimum, they enter **Panic**.
+
+Sanity Formula: `15 + (10-Rank) + Prudence*2`
 
 ### Rank
-> **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums.
+> **Rank** is determined by a character's **Fixer Grade**, **Syndicate Grade**, or equivalent determined by the Game Master. Rank affects a character's Resources' maximums. The GM decides when players are able to rank up their characters, typically after a large achievement. The GM can also require characters to perform an action to increase rank, such as taking a fixer exam or equivalent.
 
 ### Stats
 > **Stats** are determined by a character's Rank, and can be increased or decreased by other means such as **Equipment** or **Passives**. Stats affect everything from Resources, **Dice Rolls**, and more as determined by the Game Master. When choosing **Proficiencies**, a certain minimum of **Primary** and/or **Secondary Stats**, specific to the desired Proficiency, must be met.
@@ -53,9 +61,11 @@
     Sanity Formula: `15 + (10-Rank) + Prudence*2`
 
 - **Justice**
-    > A character's **Speed** Roll is increased by their **Justice**.
+    > A character's **Speed** Roll and **Movement Points** are increased by their **Justice**.
 
     Speed Formula: `1d6 + Justice`
+    
+    Movement Points Formula: `3 + (Justice/2 Rounded Down)`
 
 - **Temperance**
     > A character's max Stagger Resist is increased by their **Temperance**.
@@ -90,16 +100,16 @@
 > The **Page Type** is displayed on the top right of a Page. The Page Type affects how and when the Page is used.
 
 #### Melee Pages
-> **Melee Pages** can be used against a target who is within the **Weapon Range**. When clashing against a **Ranged Page**, on **Offensive Dice** **Clash Win**, the Dice does not deal damage, instead it is **Recycled** and moved to the bottom of the Page.
+> **Melee Pages** can be used against a target who is within the **Weapon Range**. When clashing against a **Ranged Page**, on **Offensive Dice** **Clash Win**, the Dice is not resolved and does not deal damage, instead it is moved to the bottom of the Page.
 
 #### Ranged Pages
-> **Ranged Pages** can be used against a target within the **Weapon Range**. When clashing against a Melee Page outside of the target's Weapon Range on **Clash Lose** against a **Defensive Dice** the character takes no Stagger Damage. If no **Offensive Dice** remain on the character's Ranged Page and the character is outside the target's Weapon Range, all Offensive Dice on the target's page are **Negated**.
+> **Ranged Pages** can be used against a target within the **Weapon Range**. When clashing against a Melee Page outside of the target's Weapon Range on **Clash Lose** against a **Defensive Dice** the character takes no Stagger Damage. If no **Offensive Dice** remain on the character's Ranged Page and the character is outside the target's Weapon Range, all Offensive Dice on the target's page converted to **Counter Dice**.
 
 #### Mass Attack Pages
-> **Mass Attack Pages** can be used against a number of targets within the **Weapon Range**. The character may choose which Speed Dice of the targets are selected for targetting.
+> **Mass Attack Pages** can be used against a number of targets within the **Weapon Range**. The character may choose which Speed Dice of the targets are selected for targetting. When Clashing against a Mass Attack Page, Counter Dice are kept, but not rolled against Mass Attacks. 
 
 - **Summation**
-    > To resolve a **Summation** Clash, the sum of all non-**Counter Dice**'s Final Powers on the character's Page is compared to the sum of all non-Counter dice's Final Powers on the target's Page, regardless of whether they were clashing with the Mass Attack or not. If the sum of the target's Dice is lower, all Dice on the target's page excluding Counter Dice are **Negated**. If the sum of the target's dice is higher, the target is not affected by the Mass Attack. Then, the Mass Attack Page is resolved as One Sided Attack against all remaining targets.
+    > To resolve a **Summation** Clash, the sum of all non-**Counter Dice**'s Final Powers on the character's Page is compared to the sum of all non-Counter dice's Final Powers on the target's Page, regardless of whether they were clashing with the Mass Attack or not. If the sum of the target's Dice is lower, all Dice on the target's page excluding Counter Dice are **Negated**. If the sum of the target's dice is equal to or higher, the target is not affected by the Mass Attack. Then, the Mass Attack Page is resolved as One Sided Attack against all remaining targets.
 
 - **Individual**
     > To resolve an **Individual** Clash, resolve each Dice on the Mass Attack Page top to bottom. Each target also resolves their Dice, excluding **Counter Dice** top to bottom. Each target compares their Dice's Final power against the character's Mass Attack Dice's Final Power. If the target's Final Power is lower, the target's Dice is **Negated** and the character's Mass Attack Page's Dice is applied against the target. Repeat for all targets.
@@ -123,10 +133,10 @@
 > When a Dice is **Negated**, it is removed from the current Clash or One Sided Attack. It applies no damage or effects. 
 
 #### Dice Clashing
-> When two Dice **Clash**, their Final Powers are compared against each other. The higher Dice is counted as a **Clash Win**, and the lower Dice is counted as a **Clash Lose**. When the Final Powers are equal, it is counted as a **Draw** for both Dice. In the event of a Draw, both Dice are **Negated**. On a Dice's Clash Lose, a character loses 1 Sanity. On a Dice's Clash Win, a character heals 1 Sanity.
+> When two Dice **Clash**, their Final Powers are compared against each other. The higher Dice is counted as a **Clash Win**, and the lower Dice is counted as a **Clash Lose**. When the Final Powers are equal, it is counted as a **Draw** for both Dice. In the event of a Draw, both Dice are **Negated** and no Sanity is lost or gained. On a Dice's Clash Lose, a character loses 1 Sanity. On a Dice's Clash Win, a character heals 1 Sanity.
 
 #### Offensive Dice
-> **Offensive Dice** have an assigned **Damage Type** that characters can have weaknesses or resistances to. Offensive Dice allow the character to damage their target by: `(Final Power)*(Target Resistance)`, where Target Resistance is the target's **Type Resistance** to the specified Damage Type.
+> **Offensive Dice** have an assigned **Damage Type** that characters can have weaknesses or resistances to. Offensive Dice allow the character to damage their target by: `(Final Power)*(Target Resistance)` Rounded Up, where Target Resistance is the target's **Type Resistance** to the specified Damage Type. They also deal Stagger damage equal to `(Final Power)*(Target Stagger Resistance)` Rounded Up, where Target Stagger Resistance is the target's **Type Stagger Resistance** to the specified Damage Type
 
 - **Slash Dice**
     > **Slash Dice** deal and interact with **Effects** and **Passives** that influence **Slash Damage**.
@@ -309,22 +319,19 @@
 > **Effects** are temporary ailments, buffs, or environmental effects that apply to a character.
 
 ### Story Rolls
-> **Story Rolls** occur whenever a character faces a mental or physical obstacle, done at the Game Master's discretion.
+> **Story Rolls** occur whenever a character faces a mental or physical obstacle, done at the Game Master's discretion. By default, a Story Roll is `1d20 + Appropriate Stat`. By default a failure is defined as rolling **9** or below and a success is **12** or higher. GMs are encouraged to have other outcomes prepared for exceptionally high or low rolls. 
 
 #### Advantage & Disadvantage
 > When a character has **Advantage** they replace their next dice roll with dice rolls equal to their count of Advantage plus 1 and choose the highest of the rolls to keep. When a character has **Disadvantage** they replace their next dice roll with dice rolls equal to their count of Disadvantage plus 1 and choose the lowest of the rolls to keep. Lose all Advantage and Disadvantage after resolving the Dice. If a character would gain Advantage while having Disadvantage, the character loses count of Disadvantage equal to the Advantage they would gain.If a character would gain Disadvantage while having Advantage, the character loses count of Advantage equal to the Disadvantage they would gain 
 
-#### Challenge Rolls
-> **Challenge Rolls** require a character to roll a specific stat, or choice of stat, and meet a minimum number required to pass. There may be other outcomes based on exceptionally high or low rolls, at the Game Master's discretion.
-
 #### Contested Rolls
-> **Contested Rolls** require a character to roll a specific stat, or choice of stat, against another target who does the same. In a **Contest** against a target of a higher Rank, the character suffers a flat penalty to their Roll equal to the difference in Rank. In a Contest against a target with a lower rank, the character gains a flat bonus to their Roll equal to the difference in Rank. The higher roll wins the Contest. Handling of ties, and exceptionally high or low rolls, are done at the Game Master's discretion.
+> **Contested Rolls** require a character to roll a specific stat, or choice of stat, against another target who does the same. In a **Contest** against a target of a stronger Rank, the character suffers a flat penalty to their Roll equal to the difference in Rank. These follow the same rules as Story Rolls, with a default 1d20 roll. In a Contest against a target with a weaker Rank, the character gains a flat bonus to their Roll equal to the difference in Rank. For example, a character with Rank 9 suffers a penalty to their roll of -2 against a target with rank 7. The higher roll wins the Contest. Handling of ties, and exceptionally high or low rolls, are done at the Game Master's discretion.
 
 #### Assist
-> A character can **Assist** another character with an action requiring a Story Roll when they are within range of the same action, determined by the Game Master.
+> A character can **Assist** another character with an action requiring a Story Roll when they are within range of the same action, determined by the Game Master. GMs can require whatever cost they see as appropriate and give whatever benefit they see appropriate. 
 
 ### Resting
-> **Resting** occurs when a character is able to meet the following conditions for a period of time: out of combat, in shelter, and positive sanity. While Resting, characters restore Health, Light, and Sanity. Additionally, characters can freely edit their deck, change weapons, and switch armors while resting.
+> **Resting** occurs when a character is able to meet the following conditions for a period of time: out of combat and in shelter. While Resting, characters restore Health and Sanity. Additionally, characters can freely edit their deck, change weapons, and switch armors while resting. For every hour of rest characters recover `6 + (10-Rank)*2 + Fortitude*2` Health and `(10-Rank)*2 + Prudence` Sanity.
 
 ### Deck Interactions
 
@@ -340,7 +347,7 @@
 ## Act 8: Combat
 
 ### Combat Start
-> On **Combat Start**, all characters roll a `d6 + Justice` to determine **Speed**. Turn order then goes from highest to lowest Speed rolls. Ties go to the players first, then ties between players are decided between the players. Other ties are determined by the Game Master.
+> On **Combat Start**, all characters roll a `d6 + Justice` to determine **Speed**. Turn order then goes from highest to lowest Speed rolls. Ties go to the players first, then ties between players are decided between the players. Other ties are determined by the Game Master. Each character fully recovers their Light and draws `3` Pages.
 
 ### On Your Turn
 > Turns, in general, follow this order: **Resolve Slotted Pages**, then **Upkeep**, then **Combat Actions**, and finally **Endstep**. 
@@ -355,16 +362,13 @@
 > After resolving all Effects and Passives in the Upkeep phase, the character's turn phase moves to the **Combat Action** phase. Here, characters can choose any number of available **Combat Actions** to perform a turn.
 
 - **Movement:**
-    > Every turn a character gets a number of **Movement Points**, increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the target of an enemy attack, unless the attack is a Mass Attack. Characters can move tiles in any direction equal to the number of Movement Points expended for this Action. 
+    > Every turn a character gets a number of **Movement Points** (`3 + (Justice/2 Rounded Down)`), increased by their Justice and Passives. Characters cannot spend any Movement Points while they are the target of an enemy attack, unless the attack is a Mass Attack. Characters can move tiles in any direction equal to the number of Movement Points expended for this Action. 
 
 - **Use a Combat Page**
     > To use a **Combat Page**, a character must pay Light equal to the Cost of the page. After a character pays the Cost of the Page, the Page is **Slotted** into the chosen Dice Slot against a chosen target until it is resolved.
 
 - **Use an Auxillary Page**
     > Unlike Combat Pages, characters have full access to the Auxillary Deck from the start of combat, unless stated otherwise by the Game Master. After using an **Auxillary Page**, the page is removed from the Auxillary Deck until the end of combat, unless stated otherwise on the Page.
-
-- **Dash**
-    > To increase the amount of distance travelled in a turn, characters can **Dash** to convert Light into Movement Point. The amount of Movement Points gained by Dashing can be increased by the character's Justice and passives.
 
 #### Endstep
 > When a character is ready to pass their turn, their turn phase moves into the **Endstep**. During the Endstep, all Effects and Passives that activate at this time are resolved in the order chosen by the character.
@@ -379,7 +383,7 @@
 > For a character to be in **Full Cover**, they must be completely covered by an appropriate external source. While a character is in the effects of Full Cover, Ranged Pages cannot be targetted against the character.
 
 ### Panic
-> When a character reaches their minimum Sanity value, they enter panic until 3 upkeeps have passed. When entering panic, a character rolls a `d4` to determine their Panic Type. A character can be forcefully recovered from Panic when another character succeeds on a Prudence Story Roll. The result must be `10` or greater to succeed. On failure, subsequent attempts to recover the same character get `+X` to their roll, where `X` is the number of failed attempts. The character is then under the effects of the rolled Panic Type until they naturally recover after 3 upkeeps or are recovered by another character.
+> When a character reaches their minimum Sanity value, they enter **Panic** until 3 upkeeps have passed. When entering Panic, a character rolls a `d4` to determine their Panic Type. A character can be forcefully recovered from Panic when another character succeeds on a Prudence Story Roll. The result must be **12** or greater to succeed. On failure, subsequent attempts to recover the same character get `+X` to their roll, where `X` is the number of failed attempts. The character is then under the effects of the rolled Panic Type until they naturally recover after 3 upkeeps or are recovered by another character. When a character recovers from Panic, their Sanity is set to 0.
 
 #### Panic Types
 - **1: Darkness**
@@ -393,6 +397,15 @@
 
 - **4: Confusion**
     > The Character cannot use Auxillary Pages.
+
+### Staggered
+> When a character's Stagger Resist hits 0, they become **Staggered**. While Staggered, all of their resistances are temporarily set to 2x, Fatal, until they recover from Stagger. Characters also cannot act in any way while Staggered: they cannot use Pages, move or perform any actions. Characters recover from Stagger after 2 upkeeps have passed. So, if a character is staggered, they will pass through their next turn, and then recover on the upkeep of the 2nd turn after.
+
+### Knocked Out
+> When a player's character's health reaches 0, they are **Knocked Out**. Another character can make a **Temperance** Story Roll to recover a character. This requires a result of **12** or more to succeed. Subsequent rolls get `+X`, where `X` is the number of failed attempts. When a character is recovered from a Knock Out state, they recover 25% Health or `(Max Health/4) Rounded Down`, `3 + Prudence` Sanity and fully recover their Stagger Resist. The character who recovered the Knocked Out character also recovers `3 + Prudence` Sanity. After three upkeeps have passed without being recovered, the character is considered Dead. Characters can still slot Combat Pages against the Knocked Out character. When the Page resolves, it does not deal any damage or apply any affects to the Knocked Out character. However, all dice are still resolved top to bottom as normal (Defensive Dice become Counter Dice as normal). If the page contained at least 1 Offensive Dice, the Knock Out upkeep counter is reduced by 1 turn. 
+
+### End of Combat
+> When combat has ended, fully recover all Light and Stagger Resist to every character. Characters then recover `3 + Prudence` Sanity. Any Panicked characters recover from Panic and any Staggered characters recover from Stagger. Any characters in a Knocked Out state are recovered.
 
 ## Act 9: Economy
 
