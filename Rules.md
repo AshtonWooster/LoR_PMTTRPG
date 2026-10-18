@@ -421,10 +421,12 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 - **fetlach**: Designer of the Community Rulebook logo.
 - **helloing0119**: Original creator of the Korean Rulebook [X link]
 - **kreif**: Member of the CR 2.0/3.0 Dev Team.
+- **liltdog9510**: Member of the LoR PMTTRPG and SoLP Dev Team
 - **mori____**: Member of the CR 2.0/3.0 Dev Team.
 - **nonamerce**: Member of the CR 3.0 Dev Team.
 - **punibird**: Translator from Korean to English of the Rulebook [X link] and Roll20 Sheet Dev
 - **saviorgaming**: Member of the CR 2.0/3.0 Dev Team.
+- **soetri**: Member of the LoR PMTTRPG and SoLP Dev Team.
 - **suleiman02**: Member of the CR 3.0 Dev Team.
 - **sky______**: Member of the CR 3.0 Dev Team.
 - **snarkmcclark**: Member of the CR 2.0/3.0 Dev Team.
