@@ -178,42 +178,47 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
 
 #### Creating a Weapon
-> When creating a Weapon, choose the **Weapon Type** (Melee or Ranged), **Weapon Property** and **Hand Property**. These affect how the weapon can be used and give benefits. Melee Weapons cannot run Ranged Pages.
+> When creating a Weapon, choose the **Weapon Type** (Melee or Ranged), **Weapon Property** and **Weapon Type**. These affect how the weapon can be used and give benefits. Melee Weapons cannot run Ranged Pages.
 
 **Melee Weapon Properties**
 
+> Melee Weapons, by default have 1 Range.
+
 - **Small**
-    - 1 Range 
+    - One Handed
+    - Adding a new Dice to a Page costs `2` **Page Points** instead of `3`
 
 - **Medium**
-    - 1 Range
+    - Two Handed
+    - Gain `1` extra **Weapon Point** per Weapon Rank from 9, plus one. For example, a Rank 9 Weapon gets 1 extra Weapon Point, and a Rank 8 Weapon gets 2.                                     
 
-- **Long**
-    - 2 Range
-
-- **Defensive**
-    - 1 Range
-    - Can Clash with any Attack that is targetting an allied character within 2 tiles, unless otherwise stated.  
+- **Heavy**
+    - Two Handed
+    - Gain `(10 - Weapon Rank)/3 Rounded Up` extra **Page Point** per Light Cost 
 
 **Ranged Weapon Properties**
 
+> Ranged Weapons allow the character to build Ranged pages. 
+
 - **Low Caliber**
     - 6 Range
+    - One Handed
+    - Cheaper dice on apge
 
 - **High Caliber**
     - 10 Range
+    - Two Handed
+    - Higher light scaling per apge
 
-**Hand Property**
+**Weapon Type**
 
-- **One Handed**
-    > A
+> A Weapon's Weapon Type affects how the character can Clash with enemies
 
-- **Two Handed**
-    > A
+- **Offensive**
+  - When initiating a Clash, the character can choose to instantly resolve it
 
-- **Special**
-    > A
-
+- **Defensive**
+  - Can Clash with any Attack that is targetting an allied character within your Weapon Range
 
 ### Armor
 > **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**. Armors additionally set the base **Resistances** for a character, which determine how much damage a character takes to each of the three Damage Types.
@@ -291,7 +296,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 | **5** | 6 |
 | **4** | 7 |
 | **3** | 8 |
-| **2** | 9 |
+| **2** | 9 |  
 | **1** | 10 |
 
 ### Step 6: Finishing Touches
