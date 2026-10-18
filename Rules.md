@@ -44,15 +44,23 @@
 
 - **Fortitude**
     > A character's max Health is increased by their **Fortitude**.
+    
+    Health Formula: `64 + (10-Rank)*16 + Fortitude*10`
 
 - **Prudence**
     > A character's max Sanity is increased by their **Prudence**.
 
+    Sanity Formula: `15 + (10-Rank) + Prudence*2`
+
 - **Justice**
     > A character's **Speed** Roll is increased by their **Justice**.
 
+    Speed Formula: `1d6 + Justice`
+
 - **Temperance**
     > A character's max Stagger Resist is increased by their **Temperance**.
+
+    Stagger Resist Formula: `20 + (10-Rank)*2 + Temperance*4`
 
 #### Secondary Stats
 > A character's **Secondary Stats** affect their interactions with the environment. This includes **Story Rolls**, interactions with other characters, and capabilities. 
@@ -172,20 +180,71 @@
 
 ### Step 1: Determine Starting Rank
 > The Rank a character is determines everything that is available for customization, from Stats, Passives, Equipment and more. So, it is critical to ensure that you and your Game Master have agreed upon a starting Rank for each character. For most campaigns, it is encouraged to start at Rank 9. 
-Stats table
+
+#### Character Stats by Rank
+| Rank | Primary Stats | Secondary Stats |
+| ----------- | ----------- | ----------- |
+| **9** | 4 | 6 |
+| **8** | 6 | 9 |
+| **7** | 8 | 12|
+| **6** | 10 | 15 |
+| **5** | 12 | 18 |
+| **4** | 14 | 21 |
+| **3** | 16 | 24 |
+| **2** | 18 | 27 |
+| **1** | 20 | 30 |
+
 
 ### Step 2: Assigning Stats
 > When you have decided on a starting Rank, you now have a set amount of Primary and Secondary Stats to allocate. These also change what Proficiencies are available to you, so work towards creating a "build" from these Stat assignments. 
 
 ### Step 3: Choosing Proficiencies
-> After assigning Stats, you can choose a number of Proficiencies equal to `Rank*2`. These Proficiencies allow you to fit the history and background of your character. For example, a character who had a background as a workshop fixer might choose Proficiencies in modifiying or creating Weapons.
+> After assigning Stats, you can choose 2 Proficiencies every rank up, starting with 4. These Proficiencies allow you to fit the history and background of your character. For example, a character who had a background as a workshop fixer might choose Proficiencies in modifiying or creating Weapons.
+
+#### Proficiency Counts by Rank
+| Rank | Proficiency Count |
+| ----------- | ----------- |
+| **9** | 4 |
+| **8** | 6 |
+| **7** | 8 
+| **6** | 10 |
+| **5** | 12 |
+| **4** | 14 |
+| **3** | 16 |
+| **2** | 18 |
+| **1** | 20 |
 
 ### Step 4: Creating an Augment
 > Your Augment allows you to create a unique style of gameplay for your character. You can assign Passives based on the character's starting Rank up to the maximum Passive Costs defined in the table below. There are examples available, but you are encouraged to work with your Game Master to create unique Augment Passives for your build.
-Max Costs table
+
+#### Max Costs Table
+| Rank | Max Cost |
+| ----------- | ----------- |
+| **9** | 4 |
+| **8** | 6 |
+| **7** | 8 
+| **6** | 10 |
+| **5** | 12 |
+| **4** | 14 |
+| **3** | 16 |
+| **2** | 18 |
+| **1** | 20 |
 
 ### Step 5: Crafting Weapons and Armor 
 > When creating Weapons or Armor, you are encouraged to work with your Game Master to ensure that it is balanced for the expectations of the campaign. You are encouraged to start with weaker versions of your ideal starting Equipment to leave room for upgrades and customization in the future. First, assign Passives to the maximum Passive Costs defined in the table below. Then, you will work with your Game Master to create one Basic Page and one Special Page for each piece of Equipment. 
+
+#### Max Costs Table
+| Rank | Max Cost |
+| ----------- | ----------- |
+| **9** | 2 |
+| **8** | 3 |
+| **7** | 4 |
+| **6** | 5 |
+| **5** | 6 |
+| **4** | 7 |
+| **3** | 8 |
+| **2** | 9 |
+| **1** | 10 |
 
 ### Step 6: Finishing Touches
 > After creating the backbone of your character, it is time to build its identity. This includes their history, appearance, goals, and personality. 
@@ -320,9 +379,20 @@ Max Costs table
 > For a character to be in **Full Cover**, they must be completely covered by an appropriate external source. While a character is in the effects of Full Cover, Ranged Pages cannot be targetted against the character.
 
 ### Panic
-Panics dont stop player from making decisions or control them:
-- Panic that min rolls everything
-- Panic that no light recover
+> When a character reaches their minimum Sanity value, they enter panic until 3 upkeeps have passed. When entering panic, a character rolls a `d4` to determine their Panic Type. A character can be forcefully recovered from Panic when another character succeeds on a Prudence Story Roll. The result must be `10` or greater to succeed. On failure, subsequent attempts to recover the same character get `+X` to their roll, where `X` is the number of failed attempts. The character is then under the effects of the rolled Panic Type until they naturally recover after 3 upkeeps or are recovered by another character.
+
+#### Panic Types
+- **1: Darkness**
+    > Every die, including Story Rolls always rolls its minimum. 
+
+- **2: Paralysis**
+    > The Character cannot draw Pages by any means. 
+
+- **3: Darkness**
+    > The Character cannot gain Light by any means.
+
+- **4: Confusion**
+    > The Character cannot use Auxillary Pages.
 
 ## Act 9: Economy
 
