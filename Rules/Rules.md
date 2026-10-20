@@ -1,6 +1,6 @@
 # Project Moon Tabletop Roleplaying Game - LoR Styled
 
-![Logo](GarethCircle.png)
+![Logo](../Images/GarethCircle.png)
 
 ## Index
 - [**Act 1: Introduction**](#act-1-introduction)
@@ -115,7 +115,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
     > To resolve an **Individual** Clash, resolve each Dice on the Mass Attack Page top to bottom. Each target also resolves their Dice, excluding **Counter Dice** top to bottom. Each target compares their Dice's Final power against the character's Mass Attack Dice's Final Power. If the target's Final Power is lower, the target's Dice is **Negated** and the character's Mass Attack Page's Dice is applied against the target. Repeat for all targets.
 
 #### Instant Pages
-> When using an **Instant Page**, the Page is instantly resolved. Instant Pages cannot engage in Clashes.
+> When using an **Instant Page**, the Page is instantly resolved. Instant Pages cannot engage in Clashes. Instant Pages can be used on the character who uses it. Instant Pages can be Items, Proficiencies, or Passive Abilities. 
 
 ### Page Clashing
 > When a character slots a Page against a Speed Dice that has a Page Slotted, these two pages engage in a **Clash**. When two Pages Clash, resolve each Page from top to bottom. The **Dice** on each Page engage in **Dice Clashes** until the Page is resolved. When clashing against a Mass Attack Page with more than 1 target, the Clash is not resolved until the start of the Mass Attack Page's Owner's turn.
@@ -172,7 +172,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > **E.G.O. Pages** act as combat pages, accessible through character progression. These are unique pages to the character.
 
 ## Act 4: Equipment
-> **Equipment** grants the Pages that constitute a character's deck (outlined in Act 4). A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a character's **Deck** when equipped.
+> **Equipment** grants the Pages that constitute a character's Deck. A piece of equipment falls into one of either two categories: **Weapons** or **Armors**. Each piece of equipment comes with at least one **Page** to use when in a character's **Deck** when equipped.
 
 ### Weapons
 > **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
@@ -224,7 +224,32 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**. Armors additionally set the base **Resistances** for a character, which determine how much damage a character takes to each of the three Damage Types.
 
 #### Resistances
-> An Armor has 3 **Resistance** values that affect the Final Damage a character would take when hit by an attack of a specified Damage Type. Higher tier armors have lower Resistances, meaning the character takes less damage.
+> An Armor has 3 **Resistance** values that affect the Final Damage a character would take when hit by an attack of a specified Damage Type. Higher tier armors have lower Resistances, meaning the character takes less damage. Resistances determine how much Health and Stagger Resist Damage the character receives once they are hit. Resistances multiply the damage received depending on their level.
+
+Resistance Levels
+
+| Resistance Level | DMG Multiplier |
+| ----------- | ----------- |
+| Fatal | `x2` |
+| Weak | `x1.5` |
+| Normal | `x1` |
+| Endured | `x0.5` |
+| Ineffective | `x0.25` |
+| Immune | `x0` |
+
+All Outfits start with *Normal* Resistances, and then modify Resistances to fit the Resistance Levels of the Outfit’s Rank using the following table:
+
+| Outfit Rank | Health Resistance | Stagger Resistance |
+| ----------- | ----------- | ----------- |
+| 9 | `1` Fatal, `1` Weak | `2` Fatal |
+| 8 | `1` Weak | `1` Fatal, `1` Weak |
+| 7 | `1` Weak | `2` Weak |
+| 6 | `1` Weak | `1` Weak |
+| 5 | All Normal | All Normal |
+| 4 | `1` Endured | All Normal |
+| 3 | `1` Endured | `1` Endured |
+| 2 | `2` Endured | `2` Endured |
+| 1 | `2` Endured, `1` Ineffective | `2` Endured, `1` Ineffective |
 
 ### Creating Pages
 
@@ -429,7 +454,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > When a character reaches their minimum Sanity value, they enter **Panic** until 3 upkeeps have passed. When entering Panic, a character rolls a `d4` to determine their Panic Type. A character can be forcefully recovered from Panic when another character succeeds on a Prudence Story Roll. The result must be **12** or greater to succeed. On failure, subsequent attempts to recover the same character get `+X` to their roll, where `X` is the number of failed attempts. The character is then under the effects of the rolled Panic Type until they naturally recover after 3 upkeeps or are recovered by another character. When a character recovers from Panic, their Sanity is set to 0.
 
 #### Panic Types
-- **1: Darkness**
+- **1: Despair**
     > Every die, including Story Rolls always rolls its minimum. 
 
 - **2: Paralysis**
