@@ -90,6 +90,9 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 ### Augments
 > **Augments** allow you to slot **Passives** that affect both combat and exploration. These are unique modifications or additions to a character. Augments allow you to customize your character, and you are encouraged to work with your Game Master to create a unique Augment for your gameplay, appearance, and story. 
 
+### Speed Dice
+> **Speed Dice** allow characters to participate in Combat. Having more than one Speed Dice allows a player to slot more Pages in one turn, one per Speed Dice. All characters start with one Speed Dice, and can obtain more through powerful upgrades, milestones, or abilities. Powerful foes may have up to even 4 or more Speed Dice. However, it is highly recommended that the GM control the players' ability to gain Speed Dice, as this is a large power spike for characters. 
+
 ## Act 3: Pages
 > **Pages** defines the skills, actions, and tools available to a character throughout gameplay. A Page falls into one of either four categories: **Combat Pages**, **Tools**, **Abilities**, and **E.G.O. Pages**.
 
@@ -160,7 +163,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > **Counter Dice** can be Offensive or Defensive. Counter Dice do not prompt any action, and are instead stored on the character until the end of their next **Upkeep**. These Counter Dice are automatically used to respond to any One-sided attack they would receive, used in the order they were generated. They are not used when the character and attacker both slotted a Page in a Clash. On **Clash Win**, Counter Dice are Recycled. Then, at the end of the attacker's Combat Page Resolution, they are lost.
 
 ### Combat Pages
-> **Combat Pages** are pages derived from your current **Equipment** (equipped Weapons and Armor). Equipment bring at least one **Basic Page**, and can include more **Special Pages**.
+> **Combat Pages** are pages derived from your current **Weapons**. Equipment bring at least one **Basic Page**, and can include more **Special Pages**.
 
 ### Tools
 > **Tools** are pages derived from items in your **Inventory**. Some tools are reusable, while others' pages are consumed upon use.
@@ -178,7 +181,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
 > **Weapons** provide Combat Pages for the character to use throughout their journey. By default, characters have two hands and can equip up to two hands worth of weapons at a time. This can be increased through **Passives**. Weapons, too, can be modified with Passives.
 
 #### Creating a Weapon
-> When creating a Weapon, choose the **Weapon Type** (Melee or Ranged), **Weapon Property** and **Weapon Type**. These affect how the weapon can be used and give benefits. Melee Weapons cannot run Ranged Pages.
+> When creating a Weapon, choose the **Weapon Range** (Melee or Ranged), **Weapon Property** and **Weapon Type**. These affect how the weapon can be used and give benefits. Melee Weapons cannot run Ranged Pages.
 
 **Melee Weapon Properties**
 
@@ -221,7 +224,7 @@ Sanity Formula: `15 + (10-Rank) + Prudence*2`
   - Can Clash with any Attack that is targetting an allied character within your Weapon Range
 
 ### Armor
-> **Armors** provide Combat Pages for the character to use throughout their journey. Characters can equip up to one armor set at a time. Armors, too, can be modified with **Passives**. Armors additionally set the base **Resistances** for a character, which determine how much damage a character takes to each of the three Damage Types.
+> **Armors** can be modified with **Passives** and set the base **Resistances** for a character. These determine how much damage a character takes to each of the three Damage Types.
 
 #### Resistances
 > An Armor has 3 **Resistance** values that affect the Final Damage a character would take when hit by an attack of a specified Damage Type. Higher tier armors have lower Resistances, meaning the character takes less damage. Resistances determine how much Health and Stagger Resist Damage the character receives once they are hit. Resistances multiply the damage received depending on their level.
@@ -309,7 +312,7 @@ All Outfits start with *Normal* Resistances, and then modify Resistances to fit 
 | **1** | 20 |
 
 ### Step 5: Crafting Weapons and Armor 
-> When creating Weapons or Armor, you are encouraged to work with your Game Master to ensure that it is balanced for the expectations of the campaign. You are encouraged to start with weaker versions of your ideal starting Equipment to leave room for upgrades and customization in the future. First, assign Passives to the maximum Passive Costs defined in the table below. Then, you will work with your Game Master to create one Basic Page and one Special Page for each piece of Equipment. 
+> When creating Weapons or Armor, you are encouraged to work with your Game Master to ensure that it is balanced for the expectations of the campaign. You are encouraged to start with weaker versions of your ideal starting Equipment to leave room for upgrades and customization in the future. First, assign Passives to the maximum Passive Costs defined in the table below. Then, you will work with your Game Master to create Basic Pages and Special Pages for each Weapon. 
 
 #### Max Costs Table
 | Rank | Max Cost |
@@ -352,7 +355,7 @@ All Outfits start with *Normal* Resistances, and then modify Resistances to fit 
 > **Decks** provide the method by which characters engage in combat and provide unique ways to interact with their environment. Characters have two decks available to them: **Combat Decks** and **Auxillary Decks**. The Combat Deck is only available during combat. Auxillary Decks are available at all times. 
 
 ### Combat Decks
-> **Combat Decks**, by default, consist of 12 pages from character Equipment. Characters can create this deck from any number of copies of their **Basic Pages** from current Equipment.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page. While in **Combat**, the character's Combat Deck is shuffled, face down.
+> **Combat Decks**, by default, consist of 12 pages from a character's Weapons. Characters can create this deck from any number of copies of their **Basic Pages** from currently equipped Weapons.Characters can also run unique, **Special Pages**, obtained from their equipment or modifying a Basic Page. While in **Combat**, the character's Combat Deck is shuffled, face down.
 
 #### Basic Pages
 > Characters can copy and equip any number of a **Basic Page** into their Combat Deck. 
